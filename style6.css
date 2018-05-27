@@ -1,3 +1,8 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 .primary {
   z-index: 3;
   position: relative;
@@ -22,6 +27,11 @@ style="text-align: right;"
   
 }
 
+@media{
+.col-sm-4 {
+    width: 100%;
+
+}}
 
 .center {
   
@@ -35,6 +45,8 @@ style="text-align: right;"
 
 
 footer {
-bottom:100%;
-
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
 }
