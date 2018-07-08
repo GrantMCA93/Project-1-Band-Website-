@@ -10,16 +10,19 @@ position: relative;
   padding:12px 7px 10px;
   color:white;
   font-size: x-large;
- hover:blue;
  width: 100%;
  
+}
+h1:hover{
+  color: red;
+  text-decoration: underline;
 }
 
 a{
   color: white
 }
 
-style="text-align: right;"
+
 
 .align-right {
   text-align: right;
@@ -102,16 +105,30 @@ padding-bottom:100px;
 .container {
     margin: 0 auto;
     position: relative;
-    width: 978px;
+    width: 75%;
     background-color:white;
     border-style: solid;
     height:100%;
     top:50px;
 }
 
+@media screen and (max-width: 768px) {
+.mobile-container{
+   margin: 0 auto;
+    position: relative;
+    width: 100%;
+    background-color:white;
+    border-style: solid;
+    height:100%;
+    top:50px;
+  
+}
+}
+
+
 .bandmembers-heading{
     background-color:black;
-    color: blue;
+    color: black;
     padding: 0;
     border: 0;
     width: 100%;
@@ -126,7 +143,7 @@ padding-bottom:100px;
 }
 
 @media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive  {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
