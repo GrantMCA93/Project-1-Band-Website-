@@ -27,50 +27,65 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <div></div><a class="navbar-brand" href="#">Band Member Bios</a></div>
+      <div></div><a class="navbar-brand" href="#">Booking</a></div>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li><a href="index.html">Home</a></li>
         <li><a href="musicvideo.html">Music Videos</a></li>
         <li><a href="songs.html">Songs</a></li>
-        <li class="active"><a href="bandmembers.html">Band Members</a></li>
-        <li><a href="booking.html">Booking</a></li>
+        <li><a href="bandmembers.html">Band Members</a></li>
+        <li class="active"><a href="booking.html">Booking</a></li>
   
     </div>
   </div>
+  
 </nav>
 </header>
-
-
     <section  class="bandmembersbackground-image" style="z-index:-1;">
         <div class="container , mobile-container">
         <span class="bandmembers-heading">
-        <h1 align="float:left;" >Band Member Bios</h1>
-        </span>
-        <img src="/Assets/Images/bandmembers/md.jpg">
-        <h2>George Michael Dolenz Jr</h2>
-        <p>(born March 8, 1945) is an American actor, musician, television director, radio personality and theater director, best known as a vocalist and drummer of the 1960s pop/rock band the Monkees.</p>
-        <hr size="1">
-        <img src="/Assets/Images/bandmembers/dj.jpg">
-        <h2>David Thomas Jones</h2>
-        <p>(30 December 1945 – 29 February 2012) was an English singer-songwriter, musician, actor and businessman best known as a member of the band the Monkees, and for starring in the TV series of the same name. His acting credits include a Tony-nominated role as the Artful Dodger in the original London and Broadway productions of Oliver! as well as a starring cameo role in a hallmark episode of The Brady Bunch television show and later reprised parody film; Love, American Style; and My Two Dads. Jones is considered one of the great teen idols.</p>
-        <hr size="1">
-         <img src="/Assets/Images/bandmembers/pt.jpg">
-        <h2>Peter Tork</h2>
-        <p>(born Peter Halsten Thorkelson, February 13, 1942) is an American musician and actor, best known as the keyboardist and bass guitarist of the Monkees.</p>
-        <hr size="1">
-         <img src="/Assets/Images/bandmembers/mn.jpg">
-        <h2>Robert Michael Nesmith </h2>
-        <p>(born December 30, 1942) is an American musician, songwriter, actor, producer, novelist, businessman, and philanthropist, best known as a member of the pop rock band the Monkees and co-star of the TV series The Monkees (1966–1968). Nesmith's songwriting credits include "Different Drum" (sung by Linda Ronstadt with the Stone Poneys).
-
-After the break-up of the Monkees, Nesmith continued his successful songwriting and performing career, first with the seminal country rock group the First National Band, with whom he had a top-40 hit "Joanne", and then as a solo artist. He is a noted player of the twelve-string guitar, performing on custom-built twelve-string electric guitars with the Monkees (built by Gretsch) and various twelve-string acoustic models during his post-Monkees career.
-
-He is also an executive producer of the cult film Repo Man (1984). In 1981, Nesmith won the first Grammy Award given for Video of the Year for his hour-long television show, Elephant Parts.[1]</p>
-        <hr size="1">
+       	<div class="row">
+				<div class="col-xs-12" >
+					<div class="jumbotron text-center">
+						<h1>Book a Show!</h1>
+						<p class="lead">Want to hire The Monkees to play a show? Get in touch with the form below!</p>
+					</div>
+				</div>
+			</div>
+			<div class="row" style="font-size: xx-large; padding-bottom: 80px;">
+				<div class="col-xs-12 col-md-8 col-md-offset-2" >
+					<div class="booking-form">
+						<form method="post" action="/booking.html">
+							<p class="lead" style="font-size:  xx-large;font-weight:  bold;">Personal Details:</p>
+							<div class="personal-details">
+								<input type="text" name="fname" class="form-control" id="fname" placeholder="First Name" required="">
+								<input type="text" name="lname" class="form-control" id="lname" placeholder="Last Name" required="">
+								<input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required="">
+							</div>
+							<p class="lead" id="event-details-lead">Event Details:</p>
+							<div class="event-details">
+								<label for="booking-type" class="control-label">Event Type:</label>
+								<select name="booking-type" id="booking-type" class="form-control">
+									<option selected="">Personal Event (At your residence)</option>
+									<option>Wedding</option>
+									<option>Bar/Restaurant Event</option>
+									<option>Corporate Event</option>
+									<option>Other (Explain in comments)</option>
+								</select>
+								<label for="booking-date" class="control-label">Requested Booking Date:</label>
+								<input type="date" name="booking-date" class="form-control" id="booking-date" placeholder="Book Date">
+								<textarea rows="5" name="comments" class="form-control" id="comments" placeholder="Comments/Special Requests (Optional)"></textarea>
+							</div>
+							<button type="submit" class="btn btn-success center-block btn-lg">Submit Booking Request</button>
+						</form>
+					</div>
+				</div>
+			</div>
         </div>
     </section>
-        <footer class="primary">
+
+<footer class="primary">
            <div class="col-sm-4" style="text-align: right;">
                 <h5 class="uppercase general-sub" >Social links</h5>
                 <ul class="list-inline social-links">
