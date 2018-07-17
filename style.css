@@ -3,6 +3,13 @@ html {
     min-height: 100%;
 }
 
+/*------ link color ------*/
+a{
+  color: white
+}
+
+/*------ layout ------*/
+
 .primary {
   z-index: 3;
 position: relative;
@@ -13,6 +20,30 @@ position: relative;
  width: 100%;
  
 }
+
+.align-right {
+  text-align: right;
+    margin: 20px;
+    display:block;
+      width: 100%;
+  
+}
+
+header{
+    z-index: 110;
+    
+}
+footer {
+    bottom: 0;
+    height: 100px;
+   font-size: x-large;
+    overflow: hidden;
+      z-index: 110;
+  
+}
+
+/*------ hover ------*/
+
 h1:hover{
   color: red;
   text-decoration: underline;
@@ -23,22 +54,15 @@ h1:hover{
   text-decoration: underline;
 }
 
-a{
-  color: white
+a:focus, a:hover {
+    color: #ff0000;
+    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
 }
 
-
-
-.align-right {
-  text-align: right;
-    margin: 20px;
-    display:block;
-      width: 100%;
-  
-}
-
-
-/* media */
+/*------ media ------*/
 
 @media{
 .col-sm-4 {
@@ -76,30 +100,18 @@ a{
   }
 }
 
-.center {
-  
-    margin: auto;
-    width: 50%;
-    border: 3px solid green;
-    padding: 10px;
- 
-
+@media (min-width: 768px){
+.lead {font-size: 32px;
+}
 }
 
 
-/* Image */
+/*------ Image ------*/
 
 .image-padding{
   padding: 100px;
 }
-footer {
-    bottom: 0;
-    height: 100px;
-   font-size: x-large;
-    overflow: hidden;
-      z-index: 110;
-  
-}
+
 
 .mainimage{
   
@@ -137,19 +149,7 @@ min-height: 800px;
 }
 
 
-header{
-    z-index: 110;
-    
-}
-
-
-
-
-
-
-
-
-
+/*------ container ------*/
 
 .container {
     margin: 0 auto;
@@ -161,18 +161,17 @@ header{
     top:50px;
 }
 
-
-
-
-.bandmembers-heading{
-    background-color:black;
-    color: black;
-    padding: 0;
-    border: 0;
-    width: 100%;
+.song-container{
+  background-color:black;
+  
+  margin-left:10%;
+  margin-right:10%;
+  padding:5%;
+  color:white;
+  
 }
 
-
+/*------ topnav ------*/
   .topnav.responsive a {
     float: none;
     display: block;
@@ -185,27 +184,15 @@ header{
 }
 
 
+/*------ headings ------*/
 
-a:focus, a:hover {
-    color: #ff0000;
-    text-decoration: underline;
-    text-decoration-line: underline;
-    text-decoration-style: initial;
-    text-decoration-color: initial;
+.bandmembers-heading{
+    background-color:black;
+    color: black;
+    padding: 0;
+    border: 0;
+    width: 100%;
 }
-
-.song-container{
-  background-color:black;
-  text-align:left;
-  margin-left:10%;
-  margin-right:10%;
-  padding:5%;
-  color:white;
-  
-}
-
-
-/* headings */
 
 .h3, h3 {
     font-size: 32px;
@@ -213,4 +200,22 @@ a:focus, a:hover {
 
 .h5, h5 {
     font-size: x-large;
+}
+
+/*------ booking page ------*/
+
+.bookingpage-form-headers{
+  
+font-size: xx-large;
+padding-top: 20px;
+font-weight:  bold;
+}
+
+/*------ songs page ------*/
+
+.songdescription{
+  text-align:left;
+}
+.songpage-playbar-width{
+  width: 70%;
 }
