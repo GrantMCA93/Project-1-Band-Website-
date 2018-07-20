@@ -51,7 +51,7 @@ h1:hover{
 
 .white-hover{
   color: white;
-  text-decoration: underline;
+  
 }
 
 a:focus, a:hover {
@@ -70,18 +70,7 @@ a:focus, a:hover {
 
 }}
 
-@media screen and (max-width: 768px) {
-.mobile-container{
-   margin: 0 auto;
-    position: relative;
-    width: 100%;
-    background-color:white;
-    border-style: solid;
-    height:100%;
-    top:50px;
-  
-}
-}
+
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
@@ -132,13 +121,18 @@ a:focus, a:hover {
     -webkit-transition: all .5s ease-in-out;
 }
 
+@media screen and (min-width: 768px){
 .bandmembersbackground-image {
     background: url("/Assets/Images/The_Monkees background image for band member bios.jpg") no-repeat center top;
 background-size:cover;
 background-attachment: fixed;
 padding-bottom:100px;
 min-height: 800px;
+background-color: white;
 }
+}
+
+@media screen and (min-width: 768px){
 .songsbackground-image{
     background: url("/Assets/Images/Songs Album Art/monkees.jpg") no-repeat center top;
     background-size:cover;
@@ -146,29 +140,68 @@ min-height: 800px;
     padding-bottom:100px;
     padding-top:1px;
     position:relative;
+    background-color: black;
 }
-
+}
 
 /*------ container ------*/
 
-.container {
-    margin: 0 auto;
+@media screen and (min-width: 768px) {
+.bandmember-container{
+     margin: 0 auto;
     position: relative;
-    width: 75%;
+    width: 80%;
     background-color:white;
     border-style: solid;
     height:100%;
     top:50px;
+  padding:5%;
+  color:black;
+  text-align: justify;
+}
 }
 
+@media screen and (max-width: 768px) {
+.bandmember-mobile-container{
+   margin: 0 auto;
+    position: relative;
+    width: 100%;
+    background-color:white;
+    border-style: solid;
+    height:100%;
+    padding: 10px;
+  text-align: justify;
+}
+}
+
+@media screen and (min-width: 768px) {
 .song-container{
+   margin: 0 auto;
+    position: relative;
   background-color:black;
   
-  margin-left:10%;
-  margin-right:10%;
+   width: 80%;
   padding:5%;
   color:white;
-  
+  text-align: justify;
+}
+}
+@media screen and (max-width: 768px) {
+.song-mobile-container{
+   margin: 0 auto;
+    position: relative;
+    width: 100%;
+    background-color:black;
+   /* border-style: solid; */
+    height:100%;
+    top:-0px;
+    bottom: 0px
+    
+    
+  text-align: justify;
+  color:white;
+  padding: 10px;
+}
 }
 
 /*------ topnav ------*/
