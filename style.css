@@ -23,7 +23,7 @@ body {
 .primary {
   z-index: 3;
 position: relative;
-  background: #141414;
+  background: black;
   padding:12px 7px 10px;
   color:white;
   font-size: x-large;
@@ -66,6 +66,7 @@ position: relative;
  width: 100%;
  border:none;
  margin:0px;
+ background-color:#222;
   
 }
 
