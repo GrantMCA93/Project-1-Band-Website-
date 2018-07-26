@@ -229,8 +229,8 @@ background-color: white;
    margin: 0 auto;
     position: relative;
   background-color:black;
-  
    width: 80%;
+   top:50px;
   padding:5%;
   color:white;
   text-align: justify;
@@ -289,7 +289,7 @@ background-color: white;
     position: relative;
   background-color:white;
   border-style: solid;
-  top: 20px;
+  top: 50px;
    width: 80%;
   padding:5%;
   color:black;
