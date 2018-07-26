@@ -73,8 +73,8 @@ position: relative;
 /*------ hover ------*/
 
 h1:hover{
-  color: white;
-  text-decoration: underline;
+  color: blue;
+  
 }
 h2:hover{
   color: black;
