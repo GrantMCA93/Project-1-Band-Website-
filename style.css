@@ -77,7 +77,7 @@ h1:hover{
 }
 h2:hover{
   color: black;
-  text-decoration: underline;
+ 
 }
 
 .white-hover{
@@ -351,6 +351,11 @@ background-color: white;
     padding: 0;
     border: 0;
     width: 100%;
+}
+
+.h2, h2 {
+    font-size: 30px;
+    
 }
 
 
