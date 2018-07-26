@@ -29,3 +29,6 @@ The text used and layout wear modified
 It should also describe the functionality of the project, as well as the technologies used. 
 Detail how the project was deployed and tested and if some of the work was based on other code, 
 explain what was kept and how it was changed to fit your need. A project submitted without a README.md file will FAIL."
+
+-footer-
+The social media links within the footer are only for show and don't link to social media accounts
