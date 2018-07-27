@@ -156,7 +156,7 @@ a:focus, a:hover {
 
 @media screen and (min-width: 768px){
 .songsbackground-image{
-    background: url("/Assets/Images/page backgrounds/monkees.jpg") no-repeat center top;
+    background: url("/assets/images/page backgrounds/monkees.jpg") no-repeat center top;
     background-size:cover;
     background-attachment:none ;
     padding-bottom:100px;
@@ -168,7 +168,7 @@ a:focus, a:hover {
 
 @media screen and (min-width: 768px){
 .bandmembersbackground-image {
-    background: url("/Assets/Images/page backgrounds/The_Monkees background image for band member bios.jpg") no-repeat center top;
+    background: url("/assets/images/page backgrounds/the_monkees background image for band member bios.jpg") no-repeat center top;
 background-size:cover;
 background-attachment: fixed;
 padding-bottom:100px;
@@ -178,7 +178,7 @@ background-color: white;
 }
 @media screen and (min-width: 768px){
 .bookingbackground-image {
-    background: url("/Assets/Images/page backgrounds/The_Monkees_March_1967.jpg") no-repeat center top;
+    background: url("/assets/images/page backgrounds/the_monkees_march_1967.jpg") no-repeat center top;
 background-size:cover;
 background-attachment: fixed;
 padding-bottom:100px;
