@@ -21,7 +21,7 @@ https://www.w3schools.com/
 
 
 
--my mentors code was modified and used for the booking form for my website on the booking page. 
+-The code for my booking form is a modified template from Bootstrap Forms https://getbootstrap.com/docs/4.0/components/forms/" , the basic layout is taken from my mentors booking form "https://ckz8780.github.io/ci-ucd-milestone/booking.html"
 The layout, text and background colors were altered -
 "https://ckz8780.github.io/ci-ucd-milestone/booking.html"
 
