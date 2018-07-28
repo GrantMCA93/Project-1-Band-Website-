@@ -44,7 +44,7 @@
 <!---- created booking forn using bootstrap form "https://getbootstrap.com/docs/4.0/components/forms/"as a template before modifying, the basic layout is taken from my mentors booking form "https://ckz8780.github.io/ci-ucd-milestone/booking.html" ---->
 <section  class="bookingbackground-image" style="z-index:-1;">
         <div class="booking-container , booking-mobile-container">
-  <form>
+  <form method="post" action="/booking.html">
         	<div class="row">
 				<div class="col-xs-12" >
 					<div class="jumbotron text-center">
@@ -55,32 +55,32 @@
 			</div>
   <div class="form-group">
 	<p class="lead">Personal Details:</p>
-    <input type="text" name="fname" class="form-control" id="fname" placeholder="First Name">
-    <input type="text" name="lname" class="form-control" id="lname" placeholder="Last Name">
-    <input type="email" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email Address">
+    <input type="text" name="fname" class="form-control" id="fname" placeholder="First Name" required>
+    <input type="text" name="lname" class="form-control" id="lname" placeholder="Last Name" required>
+    <input type="email" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email Address" required>
   </div>
   <div class="form-group">
     	<p class="lead">Event Details:</p>
-    <label for="exampleFormControlSelect1">Event Type</label>
-    <select class="form-control" id="exampleFormControlSelect1">
-      <option>Personal Event (At your Residence)</option>
-      <option>Christmas Party</option>
-      <option>Wedding</option>
-      <option>Bar/Restaurant</option>
-      <option>Corporate Event</option>
-      <option>Other (Explain in Comments)</option>
+    <label for="event-type">Event Type</label>
+    <select class="form-control" name="event-type" id="event-type" required>
+      <option value=""></option>
+      <option value="Personal Event">Personal Event (At your Residence)</option>
+      <option value="Christmas Party">Christmas Party</option>
+      <option value="Wedding">Wedding</option>
+      <option value="Bar/Restaurant">Bar/Restaurant</option>
+      <option value="Corporate Event">Corporate Event</option>
+      <option value="Other (Explain in Comments)">Other (Explain in Comments)</option>
     </select>
   </div>
   <div class="form-group">
     <label for="booking-date" class="control-label">Request Booking Date:</label>
-								<input type="date" name="booking-date" class="form-control" id="booking-date" placeholder="Book Date">
+		<input type="date" name="booking-date" class="form-control" id="booking-date" placeholder="Book Date" required>
   </div>
   <div class="form-group">
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Comments and Special Request(Optional)"></textarea>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Comments and Special Request (Optional)"></textarea>
   </div>
   <button type="submit" class="btn btn-success center-block btn-lg">Submit Booking Request</button>
-  
-</form>
+  </form>
 </div>
 </section>
 
