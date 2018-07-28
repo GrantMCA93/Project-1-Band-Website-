@@ -19,7 +19,11 @@ http://www.hueylewisandthenews.com/
 used as a reference for basic commands
 https://www.w3schools.com/
 
-
+-images used-
+Images used within website taken from github repo provided (https://github.com/Code-Institute-Org/project-assets/tree/master/stream-1/band-assets/images) Unless specified
+Homepage (index.html) background image source "https://upload.wikimedia.org/wikipedia/commons/8/8f/The_Monkees_May_1967.jpg"
+Band Members Page (bandmembers.html) background image source "https://upload.wikimedia.org/wikipedia/commons/e/ed/The_Monkees.jpg"
+Booking Page (booking.html) background image source "https://upload.wikimedia.org/wikipedia/commons/8/83/The_Monkees_March_1967.jpg"
 
 -The code for my booking form is a modified template from Bootstrap Forms https://getbootstrap.com/docs/4.0/components/forms/" , the basic layout is taken from my mentors booking form "https://ckz8780.github.io/ci-ucd-milestone/booking.html"
 The layout, text and background colors were altered -
