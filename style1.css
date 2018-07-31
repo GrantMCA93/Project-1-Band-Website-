@@ -177,7 +177,7 @@ background-color: white;
 }
 }
 @media screen and (min-width: 768px){
-.bookingbackground-image {
+.bookingbackground-image{
     background: url("/assets/images/page_backgrounds/the_monkees_march_1967.jpg") no-repeat center top;
 background-size:cover;
 background-attachment: fixed;

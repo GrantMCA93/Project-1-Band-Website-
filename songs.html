@@ -10,10 +10,10 @@
         <link rel="stylesheet" href="style1.css" type="text/css" />
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <meta name"viewport" content="width=device-width, initial-scale-1">
+        <meta name="viewport" content="width=device-width, initial-scale-1">
     </head>
     <body>
-     <header class="header" >
+<header class="header">
   <nav class="navbar navbar-inverse">
     <div class="container-fluid" >
         <div class="navbar-header" >
@@ -25,19 +25,22 @@
     <h1><a href="index.html" ><span>The Monkees</span></a></h1>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="index.html">Home</a></li>
         <li><a href="musicvideo.html">Music Videos</a></li>
-        <li class="active"><a href="songs.html">Songs</a></li>
+        <li><a href="songs.html">Songs</a></li>
         <li><a href="bandmembers.html">Band Members</a></li>
         <li><a href="booking.html">Booking</a></li>
+        </ul>
       </div>
-  </nav>
+    </div>
+  </div>
+</nav>
 </header>
-        <section class="songsbackground-image" >
-            <!---- The Audio file used was taken from the github repo provided ---->
-         <div name="Im a believer"  width="20%" align="middle" >
-          <div class="song-container song-mobile-container">
-          <div>
+<section class="songsbackground-image" >
+    <!---- The Audio file used was taken from the github repo provided ---->
+    <div class="song-container song-mobile-container">
+        <div class="row" name="Im a believer"  width="20%" align="middle" > 
+        <div class="col-xs-12">
           <div >
              <h3>I'm a believer</h3>
              <p class="songdescription songdescription-mobile">
@@ -48,11 +51,11 @@
             <audio controls class="songpage-playbar-width">
             <source src="/assets/audio/imabeliever.mp3" type="audio/mpeg">
                 Your browser does not support the audio tag.
-            </audio controls>
+            </audio>
+            <hr>
             </div>
         </div>
-        <hr>
-        <div >
+        <div class="col-xs-12">
           <div >
              <h3>Daydream Believer</h3>
              <p class="songdescription songdescription-mobile">"Daydream Believer" is a song composed by John Stewart shortly before he left the Kingston Trio. It was originally recorded by The Monkees, with Davy Jones singing the lead. The single reached No. 1 on the U.S. Billboard Hot 100 chart in December 1967, remaining there for four weeks, and peaked at No. 5 in the UK Singles Chart. It was the Monkees' last No. 1 hit in the U.S.
@@ -67,11 +70,11 @@ Stewart said that it was supposed to be the third in a trilogy of songs about su
             <audio controls class="songpage-playbar-width">
             <source src="/assets/audio/daydream_believer.mp3" type="audio/mpeg">
                 Your browser does not support the audio tag.
-            </audio controls>
+            </audio>
+            <hr>
             </div>
         </div>
-        <hr>
-        <div >
+        <div class="col-xs-12">
           <div >
              <h3>(I'm Not Your) Steppin' Stone</h3>
              <p class="songdescription songdescription-mobile">
@@ -84,11 +87,11 @@ Stewart said that it was supposed to be the third in a trilogy of songs about su
             <audio controls class="songpage-playbar-width">
             <source src="/assets/audio/i'm_not_your_stepping_Stone.mp3" type="audio/mpeg">
                 Your browser does not support the audio tag.
-            </audio controls>
+            </audio>
+            <hr>
             </div>
         </div>
-        <hr>
-        <div >
+        <div class="col-xs-12">
           <div >
              <h3>Last Train to Clarksville</h3>
              <p class="songdescription songdescription-mobile">
@@ -97,16 +100,17 @@ Stewart said that it was supposed to be the third in a trilogy of songs about su
              </div>
         <div class="audio-wrapper">
             <audio controls class="songpage-playbar-width">
-            <source src="/assets/audio/last_train_to_clarksville.mp3 type="audio/mpeg"  >
+            <source src="/assets/audio/last_train_to_clarksville.mp3" type="audio/mpeg"  >
                 Your browser does not support the audio tag.
-            </audio controls>
-            </div>
+            </audio>
+            <hr>
+        </div>
           </div>
         </div>
-      </div>
-        </section>
-        <footer class="footer">
-              <!-----The footer social media links are not real  -------->
+    </div>
+</section>
+<footer class="footer">
+    <!-----The footer social media links are not real  -------->
            <div class="col-sm-4" style="text-align: right;">
                 <h5 class="uppercase general-sub" >Social links</h5>
                 <ul class="list-inline social-links">
