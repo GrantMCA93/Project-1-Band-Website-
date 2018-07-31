@@ -193,6 +193,14 @@ background-color: white;
     margin:10px;
     
 }
+@media screen and (max-width: 768px){
+    .bandmemberimagemobile img{
+    float: none;
+    border-radius: 10px;
+    margin:10px;
+    
+}
+}
 
 /*------ container ------*/
 
