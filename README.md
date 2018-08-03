@@ -19,15 +19,15 @@ http://www.hueylewisandthenews.com/
 used as a reference for basic commands
 https://www.w3schools.com/
 
--images videos and audio files used-
+*-images videos and audio files used-*
 Images videos and audio files used within website taken from github repo provided (https://github.com/Code-Institute-Org/project-assets/tree/master/stream-1/band-assets/images) Unless specified
 Homepage (index.html) background image source "https://upload.wikimedia.org/wikipedia/commons/8/8f/The_Monkees_May_1967.jpg"
 Band Members Page (bandmembers.html) background image source "https://upload.wikimedia.org/wikipedia/commons/e/ed/The_Monkees.jpg"
 Booking Page (booking.html) background image source "https://upload.wikimedia.org/wikipedia/commons/8/83/The_Monkees_March_1967.jpg"
 
--The code for my booking form is a modified template from Bootstrap Forms https://getbootstrap.com/docs/4.0/components/forms/" , the basic layout is taken from my mentors booking form "https://ckz8780.github.io/ci-ucd-milestone/booking.html"
-The layout, text and background colors were altered -
-"https://ckz8780.github.io/ci-ucd-milestone/booking.html"
+*-The code for my booking form is a modified template from Bootstrap Forms https://getbootstrap.com/docs/4.0/components/forms/" , the basic layout is taken from my mentors booking form "https://ckz8780.github.io/ci-ucd-milestone/booking.html"-*
+The layout, text and background colors were altered from the bootstrap template -
+
 
 
 Bootstrap 3.3.7 (https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css)
@@ -36,7 +36,7 @@ hover 2.3.1 (https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-mi
 jquery 3.3.1 (https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js)
 
 
--footer-
+*-footer-*
 The social media links within the footer are only for show and don't link to social media accounts
 
 
