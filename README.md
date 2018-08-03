@@ -1,12 +1,12 @@
 This project is to create frontend website for a band using various resources.
 The audience for this website is for people with an interest in the band the monkees.
 -page by page walkthrough of website-
-Page 1- Home page is the first page of the website, the page has an image of the band
-page 2- Music Videos page contains the music video for the song daydream believer.
-Page 3- Songs page has audio files for 4 of there songs
-Page 4- Band Members page providing a biography of each band member.
-Page 5- Booking page where you can book the band for events, weddings, bars, corporate events etc.
-
+Page 1 - Home page is the first page of the website, the page has an image of the band
+page 2 - Music Videos page contains the music video for the song daydream believer.
+Page 3 - Songs page has audio files for 4 of there songs
+Page 4 - Band Members page providing a biography of each band member.
+Page 5 - Booking page where you can book the band for events, weddings, bars, corporate events etc.
+page 6 - Thank you page for booking The Monkees
 *-sources used for website design include-*
 -The code itself wasn’t copied from these websites but design ideas were taken from these website.-
 
@@ -19,7 +19,7 @@ http://www.hueylewisandthenews.com/
 used as a reference for basic commands
 https://www.w3schools.com/
 
-*-images videos and audio files used-*
+*-images, videos and audio files used-*
 Images videos and audio files used within website taken from github repo provided (https://github.com/Code-Institute-Org/project-assets/tree/master/stream-1/band-assets/images) Unless specified
 Homepage (index.html) background image source "https://upload.wikimedia.org/wikipedia/commons/8/8f/The_Monkees_May_1967.jpg"
 Band Members Page (bandmembers.html) background image source "https://upload.wikimedia.org/wikipedia/commons/e/ed/The_Monkees.jpg"
