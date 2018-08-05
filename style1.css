@@ -56,18 +56,18 @@ position: relative;
 .footer {
     bottom: 0;
     height: 100px;
-   font-size: x-large;
+    font-size: x-large;
     overflow: hidden;
-      z-index: 110;
-position: relative;
-  background: #141414;
-  padding:12px 7px 10px;
-  color:white;
- width: 100%;
- border:none;
- margin:0px;
- background-color:#222;
- text-align: right;
+    z-index: 110;
+    position: relative;
+    background: #141414;
+    padding:12px 7px 10px;
+    color:white;
+    width: 100%;
+    border:none;
+    margin:0px;
+    background-color:#222;
+    text-align: right;
   
 }
 
@@ -332,7 +332,7 @@ z-index:-1;
 
 .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
     margin-right: -15px;
-    /* margin-left: -15px; */
+     margin-left: -15px;
 }
 
 
@@ -357,6 +357,18 @@ z-index:-1;
     background-color: #222;
     border-color: #080808;
     margin: 0px;
+}
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 25px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
 }
 
 
