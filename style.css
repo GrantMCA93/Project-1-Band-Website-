@@ -20,18 +20,6 @@ body {
     background-color: black;
 }
 
-.primary {
-  z-index: 3;
-position: relative;
-  background: black;
-  padding:12px 7px 10px;
-  color:white;
-  font-size: 14px;
- width: 100%;
- border:none;
- margin:0px;
- 
-}
 
 .align-right {
   text-align: right;
@@ -44,8 +32,8 @@ position: relative;
 .header{
       z-index: 3;
 position: relative;
-  background: #141414;
-  padding:0px 0px 10px;
+  background: black;
+  padding:0px 0px 0px;
   color:white;
   font-size: x-large;
  width: 100%;
@@ -68,8 +56,9 @@ position: relative;
     margin:0px;
     background-color:#222;
     text-align: right;
-  
-}
+  }
+
+
 
 /*------ hover ------*/
 
@@ -155,6 +144,17 @@ a:focus, a:hover {
     -webkit-transition: all .5s ease-in-out;
 }
 
+
+@media screen and (min-width: 768px){
+.musicvideobackground-image{
+    background: url("/assets/images/page_backgrounds/Monkees_Television_special_1969.jpg") no-repeat center top;
+    background-size:cover;
+    padding-top:1px;
+    position:relative;
+    background-color: black;
+}
+}
+
 @media screen and (min-width: 768px){
 .songsbackground-image{
     background: url("/assets/images/page_backgrounds/monkees.jpg") no-repeat center top;
@@ -207,12 +207,12 @@ z-index:-1;
 /*------ container ------*/
 
 
+
 @media {
-.musicvideo-mobile-container{
+.musicvideopage-mobile-container{
    margin: 0 auto;
     position: relative;
     width: 100%;
-    background-color:black;
    /* border-style: solid; */
     height:100%;
     top:-0px;
@@ -224,14 +224,22 @@ z-index:-1;
 }
 
 @media (min-width: 768px) {
-.musicvideo-container{
+.musicvideopage-container{
    margin: 0 auto;
     position: relative;
-  background-color:black;
    width: 100%;
   padding:5%;
   color:white;
   text-align: justify;
+}
+}
+
+@media (min-width: 768px) {
+.musicvideo-container{
+background-color: black;
+border:solid;
+padding:10px;
+border-radius: 15px;
 }
 }
 
@@ -262,6 +270,8 @@ z-index:-1;
   padding:5%;
   color:white;
   text-align: justify;
+  border:solid;
+  border-radius: 15px;
 }
 }
 
@@ -291,8 +301,8 @@ z-index:-1;
     height:100%;
     top:50px;
   padding:5%;
-  
   text-align: justify;
+  border-radius: 15px;
 }
 }
 
@@ -326,6 +336,7 @@ z-index:-1;
   padding:5%;
   color:black;
   text-align: justify;
+  border-radius: 15px;
 }
 }
 

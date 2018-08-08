@@ -7,7 +7,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link rel="stylesheet" href="style1.css" type="text/css" />
+        <link rel="stylesheet" href="style.css" type="text/css" />
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale-1">
@@ -38,22 +38,23 @@
   </div>
 </nav>
 </header>
-<section class="primary">
-    <div class="musicvideo-container musicvideo-mobile-container">
-        <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg">
+<section class="musicvideobackground-image">
+    <!--No Background image as will distract from video-->
+    <div class="musicvideopage-container musicvideopage-mobile-container">
+        <div class="row musicvideo-container">
+        <div class="col-xs col-sm col-md col-lg">
          <h3> The Monkees - Daydream Believer</h3>
          <!--The vidoe file used was taken from the github repo provided-->
-            <video controls muted style="width:100%;" autoplay>
+            <video controls muted class="musicvideo" style="width:100%;" autoplay>
                 <source src="/assets/music_video/themonkees.mp4" type="video/mp4" >
                 Your browser does not support the video tag.
             </video>
             <div class="navbar-musicvideodescription-mobile" >
-      <button  style="text-align:left" type="button" class="primary navbar-toggle" data-toggle="collapse" data-target="#mydescription">
-        <span>Description  &#9660;</span>                     
-      </button>
+            <button  style="text-align:left;width:100%;left: 2%;" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mydescription">
+            <span style="font-size:20px;">Description  &#9660;</span>                     
+            </button>
     <div class="collapse navbar-collapse" id="mydescription">
-     <p>"Daydream Believer" is a song composed by John Stewart shortly before he left the Kingston Trio. It was originally recorded by The Monkees, with Davy Jones singing lead vocals. The single hit the number one spot on the U.S. Billboard Hot 100 chart in December 1967, remaining there for four weeks, and peaked at number five in the UK Singles Chart. It was the Monkees' last number one hit in the U.S.</p>
+     <p style="padding-top: 15px;">"Daydream Believer" is a song composed by John Stewart shortly before he left the Kingston Trio. It was originally recorded by The Monkees, with Davy Jones singing the lead. The single reached No. 1 on the U.S. Billboard Hot 100 chart in December 1967, remaining there for four weeks, and peaked at No. 5 in the UK Singles Chart. It was the Monkees' last No. 1 hit in the U.S. In 1979, "Daydream Believer" was recorded by Canadian singer Anne Murray, whose version reached No. 3 on the U.S. country singles chart and No. 12 on the Billboard Hot 100. The song has been recorded by others, including a 1971 version by John Stewart himself. Stewart said that it was supposed to be the third in a trilogy of songs about suburban life. Married couples start out in an idealistic haze, but after a few years it wears off, and each sees the other as he or she really is. This is, supposedly, when genuine love is proven.</p>
         <a target="_blank" href="https://en.wikipedia.org/wiki/Daydream_Believer"><br>Wikipedia Song Description</a>
         </div>
       </div>

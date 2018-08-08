@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style1.css" type="text/css" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale-1">
@@ -42,45 +42,45 @@
 <section  class="bookingbackground-image">
   <div class="booking-container booking-mobile-container">
     <div class="row">
-    <div class="col-xs-12">
+      <div class="col-xs-12">
   <!--created booking forn using bootstrap form "https://getbootstrap.com/docs/4.0/components/forms/"as a template before modifying, the basic layout is taken from my mentors booking form "https://ckz8780.github.io/ci-ucd-milestone/booking.html"-->
-  <form method="post" action="/thankyoubookingpage.html">
+        <form method="post" action="/thankyoubookingpage.html">
 						<div class="jumbotron text-center">
 						<h2>Book The Monkees for your next event!</h2>
 						<p class="lead" style="text-align: center;">Fill out the form below, to hire the monkees!</p>
-					</div>
-					</div>
+					  </div>
+			</div>
 				  <div class="col-xs-12">
-			<div class="form-group">
-	<p class="lead">Personal Details:</p>
-    <input type="text" name="fname" class="form-control" id="fname" placeholder="First Name" required>
-    <input type="text" name="lname" class="form-control" id="lname" placeholder="Last Name" required>
-    <input type="email" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email Address" required>
-  </div>
-  <div class="form-group">
-    	<p class="lead">Event Details:</p>
-    <label for="event-type">Event Type:</label>
-    <select class="form-control" name="event-type" id="event-type" required>
-      <option disabled selected value> -- select an option -- </option>
-      <option value="Personal Event">Personal Event (At your Residence)</option>
-      <option value="Christmas Party">Christmas Party</option>
-      <option value="Wedding">Wedding</option>
-      <option value="Bar/Restaurant">Bar/Restaurant</option>
-      <option value="Corporate Event">Corporate Event</option>
-      <option value="Other (Explain in Comments)">Other (Explain in Comments)</option>
-    </select>
-  </div>
-  <div class="form-group">
-    <label for="booking-date" class="control-label">Request Booking Date:</label>
-		<input type="date" name="booking-date" class="form-control" id="booking-date" required>
-  </div>
-  <div class="form-group">
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Comments and Special Request (Optional)"></textarea>
-  </div>
-  <button type="submit" class="btn btn-success center-block btn-lg" value="Go to thankyoubookingpage.html">Submit Booking Request</button>
-  </form>
-  </div>
-  </div>
+			    <div class="form-group">
+	           <p class="lead">Personal Details:</p>
+                <input type="text" name="fname" class="form-control" id="fname" placeholder="First Name" required>
+                <input type="text" name="lname" class="form-control" id="lname" placeholder="Last Name" required>
+                <input type="email" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email Address" required>
+          </div>
+          <div class="form-group">
+    	      <p class="lead">Event Details:</p>
+            <label for="event-type">Event Type:</label>
+              <select class="form-control" name="event-type" id="event-type" required>
+                <option disabled selected value> -- select an option -- </option>
+                <option value="Personal Event">Personal Event (At your Residence)</option>
+                <option value="Christmas Party">Christmas Party</option>
+                <option value="Wedding">Wedding</option>
+                <option value="Bar/Restaurant">Bar/Restaurant</option>
+                <option value="Corporate Event">Corporate Event</option>
+                <option value="Other (Explain in Comments)">Other (Explain in Comments)</option>
+              </select>
+          </div>
+          <div class="form-group">
+            <label for="booking-date" class="control-label">Request Booking Date:</label>
+		        <input type="date" name="booking-date" class="form-control" id="booking-date" required>
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Comments and Special Request (Optional)"></textarea>
+          </div>
+          <button type="submit" class="btn btn-success center-block btn-lg" value="Go to thankyoubookingpage.html">Submit Booking Request</button>
+          </div>
+        </form>
+      </div>
   </div>
 </section>
 <footer class="footer">
