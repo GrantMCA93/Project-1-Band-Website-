@@ -1,5 +1,8 @@
+Project1_user_centric_frontend_dev
+
 This project is to create frontend website for a band using various resources.
 The audience for this website is for people with an interest in the band the monkees.
+
 -page by page walkthrough of website-
 Page 1 - Home page is the first page of the website, the page has an image of the band
 page 2 - Music Videos page contains the music video for the song daydream believer.
@@ -7,6 +10,8 @@ Page 3 - Songs page has audio files for 4 of there songs
 Page 4 - Band Members page providing a biography of each band member.
 Page 5 - Booking page where you can book the band for events, weddings, bars, corporate events etc.
 page 6 - Thank you page for booking The Monkees
+The final version of the code was tested for errors using W3C. HTML tested using https://validator.w3.org/ , CSS tested using https://jigsaw.w3.org/css-validator/ .
+
 *-sources used for website design include-*
 -The code itself wasn’t copied from these websites but design ideas were taken from these website.-
 
@@ -36,8 +41,6 @@ hover 2.3.1 (https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-mi
 jquery 3.3.1 (https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js)
 
 
-*-footer-*
-The social media links within the footer are only for show and don't link to social media accounts
 
 
 
