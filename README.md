@@ -25,7 +25,7 @@ used as a reference for basic commands
 https://www.w3schools.com/
 
 *-images, videos and audio files used-*
-Images videos and audio files used within website taken from github repo provided (https://github.com/Code-Institute-Org/project-assets/tree/master/stream-1/band-assets/images) Unless specified
+Images videos and audio files used within website taken from github repo provided (https://github.com/Code-Institute-Org/project-assets) Unless specified
 Homepage (index.html) background image source "https://upload.wikimedia.org/wikipedia/commons/8/8f/The_Monkees_May_1967.jpg"
 Band Members Page (bandmembers.html) background image source "https://upload.wikimedia.org/wikipedia/commons/e/ed/The_Monkees.jpg"
 Booking Page (booking.html) background image source "https://upload.wikimedia.org/wikipedia/commons/8/83/The_Monkees_March_1967.jpg"
