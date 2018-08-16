@@ -58,6 +58,10 @@ The Booking page has been tested and the booking form cannot be submitted if any
 •	Github 
 o	https://github.com/GrantMCA93/Project-1-BandWebsite/commits/master
 
+The hosting platform I chose to use was Github
+one issue I discovered early into the product was that I unfortunately didn’t push my early commits to the right location, but I quickly realised and sorted the problem.
+
+
 *-Credits-*
 Content
 •	Page 2 Music video page Description https://en.wikipedia.org/wiki/Daydream_Believer
