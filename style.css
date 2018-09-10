@@ -147,7 +147,7 @@ a:focus, a:hover {
 
 @media screen and (min-width: 768px){
 .musicvideobackground-image{
-    background: url("/assets/images/page_backgrounds/Monkees_Television_special_1969.jpg") no-repeat center top;
+    background: url("/project1-user-centric-frontend-dev/assets/images/page_backgrounds/Monkees_Television_special_1969.jpg") no-repeat center top;
     background-size:cover;
     padding-top:1px;
     position:relative;
@@ -157,7 +157,7 @@ a:focus, a:hover {
 
 @media screen and (min-width: 768px){
 .songsbackground-image{
-    background: url("/assets/images/page_backgrounds/monkees.jpg") no-repeat center top;
+    background: url("/project1-user-centric-frontend-dev/assets/images/page_backgrounds/monkees.jpg") no-repeat center top;
     background-size:cover;
     padding-bottom:100px;
     padding-top:1px;
@@ -168,7 +168,7 @@ a:focus, a:hover {
 
 @media screen and (min-width: 768px){
 .bandmembersbackground-image {
-    background: url("/assets/images/page_backgrounds/the_monkees_background_image_for_bandmember_bios.jpg") no-repeat center top;
+    background: url("/project1-user-centric-frontend-dev/assets/images/page_backgrounds/the_monkees_background_image_for_bandmember_bios.jpg") no-repeat center top;
 background-size:cover;
 background-attachment: fixed;
 padding-bottom:100px;
@@ -179,7 +179,7 @@ z-index:-1;
 }
 @media screen and (min-width: 768px){
 .bookingbackground-image{
-    background: url("/assets/images/page_backgrounds/the_monkees_march_1967.jpg") no-repeat center top;
+    background: url("/project1-user-centric-frontend-dev/assets/images/page_backgrounds/the_monkees_march_1967.jpg") no-repeat center top;
 background-size:cover;
 background-attachment: fixed;
 padding-bottom:100px;
