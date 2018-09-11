@@ -57,11 +57,12 @@ The Booking page has been tested and the booking form cannot be submitted if any
 
 *-Code Deployment-*
 
-•	Github 
-o	https://github.com/GrantMCA93/Project-1-BandWebsite/commits/master
+•	Github pages websit host location https://grantmca93.github.io/project1-user-centric-frontend-dev/index.html
+o	Github commit location https://github.com/GrantMCA93/Project-1-BandWebsite/commits/master
 
-The hosting platform I chose to use was Github
+The hosting platform I chose to use was Github pages
 one issue I discovered early into the product was that I unfortunately didn’t push my early commits to the right location, but I quickly realised and sorted the problem.
+A second issue is that Github pages doesn't support the post method so i removed it from my booking form.
 
 
 *-Credits-*
